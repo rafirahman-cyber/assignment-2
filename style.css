@@ -70,7 +70,7 @@ button{
 }
 
 .container .circle img{
-    /* border: 1px solid greenyellow; */
+    
     width: 430px;
     height: 430px;
     margin-top: -650px;
@@ -80,7 +80,7 @@ button{
 }
 
 .container .mic img{
-    /* border: 1px solid greenyellow; */
+    
     width: 150px;
     height: 220px;
     margin-left: 885px;
@@ -109,7 +109,7 @@ button{
 }
 
 .container .banner-btn{
-    /* border: 1px solid rgb(11, 216, 55); */
+
     display: flex;
     gap: 10px;
     font-size: 1rem;
@@ -125,10 +125,112 @@ button{
 
 
 .hero .banner{
-    /* border: 1px solid red; */
     width: 550px;
     height: 100px;
     margin-top: 540px;
     margin-left: 680px;
     margin-bottom: -40px;
+}
+
+
+
+
+
+
+/* main section related style */
+
+.podcast .podcast-banner{
+    width: 100%;
+    height: 650px;
+    padding-top: 40px;
+    background-color: #1A0B2E;
+}
+
+.podcast .podcast-container{
+    border: 1px solid #1A0B2E;
+    width: 1200px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 335px;
+    padding-left: 20px;
+}
+
+.podcast-container h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+
+.podcast-container p{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.podcast-banner hr{
+    width: 1200px;
+    height: 0;
+    margin-left: 340px;
+    margin-top: 50px;
+    
+}
+
+
+.podcast-banner .rating-container{
+    width: 1200px;
+    height: 95px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 340px;
+    margin-top: 100px;
+    padding-top: 10px;
+    
+    
+}
+
+
+.rating-container .Listeners h2{
+    font-size: 2.8rem;
+    color: #00FF88;
+    text-align: center;
+}
+.rating-container .Listeners p{
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.rating-container .Episodes-Published h2{
+    font-size: 2.8rem;
+    color: #00FF88;
+    text-align: center;
+}
+.rating-container .Episodes-Published p{
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.rating-container .Average-Rating h2{
+    font-size: 2.8rem;
+    color: #00FF88;
+    text-align: center;
+}
+.rating-container .Average-Rating p{
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.rating-container .industry-experts h2{
+    font-size: 2.8rem;
+    color: #00FF88;
+    text-align: center;
+}
+.rating-container .industry-experts p{
+    font-size: 1rem;
+    color: #FFFFFF;
 }
