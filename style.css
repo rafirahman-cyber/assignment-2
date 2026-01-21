@@ -426,20 +426,25 @@ button{
 
 /* video container related style */
 
-.vide-container{
-   /* background-color: #1A0B2E; */
-
+.bg-colour{
+    background-color: #1A0B2E;
+    width: 100%;
+    height: 750px;
+    
 }
 
+
+
 .featured h2{
-    border: 1px solid darkgreen;
+    /* border: 1px solid darkgreen; */
     width: 500px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: -50px;
     margin-left: 660px;
+    padding-top: 80px;
     font-size: 3rem;
     font-weight: bold;
-    
+    color: #FFFFFF;
     
     
 }
@@ -456,7 +461,7 @@ button{
 }
 
 .video-items .item-1{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 352px;
     height: 480px;
     background-color: #250D44;
@@ -465,7 +470,7 @@ button{
 }
 
 .video-items .item-2{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 352px;
     height: 480px;
     background-color: #250D44;
@@ -473,7 +478,7 @@ button{
 }
 
 .video-items .item-3{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 352px;
     height: 480px;
     background-color: #250D44;
@@ -575,3 +580,94 @@ button{
 .item-3 img{
     padding-top: 2px;
 }
+
+
+
+
+
+
+/* host related style */
+.host-bg{
+    background-color: #1A0B2E;
+    height: 500px;
+}
+
+
+
+
+.host-section{
+    max-width: 1200px;
+    margin: 80px auto;
+    text-align: center;
+    background-color: #1A0B2E;
+
+}
+
+.host-section h2 {
+  font-size: 42px;
+  margin-bottom: 50px;
+  margin-top: -90px;  
+  color: #FFFFFF;
+}
+
+
+.host-card {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  border-radius: 25px;
+  border: 1px solid rgba(100, 80, 255, 0.4);
+  background-color: #250D44
+}
+
+.host-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4f46e5;
+}
+
+.host-content {
+   
+  width: 1000px; 
+  text-align: left;
+}
+
+.host-content h3 {
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+
+
+.host-content p {
+  /* color: #cfcfe6; */
+  line-height: 1.7;
+  max-width: 950px;
+  color: #FFFFFF;
+  font-weight: 100;
+}
+
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 5px;
+}
+
+.social-icons a {
+  
+  width: 50px;
+  height: 50px;
+  color: #a182ca;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+
+
