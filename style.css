@@ -186,7 +186,7 @@ button{
 
 .podcast-container p{
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 100;
     text-align: center;
     color: #FFFFFF;
 
@@ -223,6 +223,7 @@ button{
 .rating-container .Listeners p{
     font-size: 1rem;
     color: #FFFFFF;
+    font-weight: 100;
 }
 
 .rating-container .Episodes-Published h2{
@@ -233,6 +234,7 @@ button{
 .rating-container .Episodes-Published p{
     font-size: 1rem;
     color: #FFFFFF;
+    font-weight: 100;
 }
 
 .rating-container .Average-Rating h2{
@@ -243,6 +245,7 @@ button{
 .rating-container .Average-Rating p{
     font-size: 1rem;
     color: #FFFFFF;
+    font-weight: 100;
 }
 
 .rating-container .industry-experts h2{
@@ -253,6 +256,7 @@ button{
 .rating-container .industry-experts p{
     font-size: 1rem;
     color: #FFFFFF;
+    font-weight: 100;
 }
 
 
@@ -360,7 +364,7 @@ button{
 }
 .headphone p{
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 100;
     line-height: 24px;
     color: #eee6e6;
     padding-top: 10px;
@@ -374,7 +378,7 @@ button{
 }
 .device p{
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 100;
     line-height: 24px;
     color: #eee6e6;
     padding-top: 10px;
@@ -388,7 +392,7 @@ button{
 }
 .location p{
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 100;
     line-height: 24px;
     color: #eee6e6;
     padding-top: 10px
@@ -402,7 +406,7 @@ button{
 }
 .Exclusive p{
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 100;
     line-height: 24px;
     color: #eee6e6;
     padding-top: 10px;
@@ -416,7 +420,7 @@ button{
 }
 .resource p{
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 100;
     line-height: 24px;
     color: #eee6e6;
     padding-top: 10px;
